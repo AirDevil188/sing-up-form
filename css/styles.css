@@ -44,3 +44,21 @@ label {
   margin-bottom: 0.5rem;
   font-size: 0.9rem;
 }
+
+.content {
+  display: flex;
+  flex-flow: column wrap;
+}
+.left-side {
+  min-height: 30vh;
+  background-image: url(/img/background.jpg);
+  background-size: cover;
+  background-position: -5px -410px;
+}
+.right-side {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 0.5em;
+  align-content: center;
+  background-color: var(--right-side-color);
+}
