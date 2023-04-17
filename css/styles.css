@@ -136,6 +136,17 @@ img {
   visibility: hidden;
 }
 
+#message-area {
+  line-height: 2rem;
+  color: var(--font-color);
+}
+
+#message-area:first-child::after {
+  content: "You know you want to!";
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
 @media (min-width: 800px) {
   .content {
     flex-flow: row nowrap;
