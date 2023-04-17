@@ -61,6 +61,18 @@ label {
   font-size: 0.9rem;
 }
 
+input {
+  color: var(--font-color);
+  font-size: 1.2em;
+  text-transform: none;
+  background-color: black;
+  border: 1px solid var(--button-color);
+}
+
+input:focus {
+  outline-color: #144fa0;
+}
+
 .content {
   display: flex;
   flex-flow: column wrap;
