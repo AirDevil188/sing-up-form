@@ -132,6 +132,10 @@ img {
   font-size: 5rem;
 }
 
+.author-image {
+  visibility: hidden;
+}
+
 @media (min-width: 800px) {
   .content {
     flex-flow: row nowrap;
