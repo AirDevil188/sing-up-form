@@ -78,3 +78,28 @@ label {
   align-content: center;
   background-color: var(--right-side-color);
 }
+
+.image-section,
+img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  padding: 0.2rem;
+  font-family: "Norse-Bold";
+  color: white;
+}
+.image-section::after {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0.3;
+}
+.logo {
+  width: 120px;
+}
+
+.logo-text {
+  font-size: 5rem;
+}
