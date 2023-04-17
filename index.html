@@ -5,6 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sing Up Form</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="content">
+      <div class="left-side">
+        <div class="image-section">
+          <img src="img/logo.png" class="logo" alt="Logo image" />
+          <h2 class="logo-text">Odin</h2>
+        </div>
+        <p class="author-image">Photo by <a href="https://unsplash.com/@bobbystevenson"> Bobby Stevenson</a> on <a href="https://unsplash.com/">Unsplash</a></p>
+      </div>
+      <div class="right-side">
+        <section id="message-area">
+          <h2>
+            This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br />
+            Sing up <i>now</i> to get Started!
+          </h2>
+        </section>
+        <section id="form-area">
+          <div class="form-area">
+            <h3>Let's do this!</h3>
+            <form action="#" method="get">
+              <label for="first_name">First Name <input type="text" id="first_name" name="first-name" minlength="3" required /></label>
+              <label for="last_name"> Last Name <input type="text" id="last_name" name="last_name" minlength="3" required /> </label>
+              <label for="user_email">Email <input type="email" id="user_email" name="email" required /></label>
+              <label for="user_phone">
+                Phone Number
+                <input type="tel" id="user_phone" name="user_phone" min="4" />
+              </label>
+              <label for="user_password">Password <input type="password" id="user_password" name="user_password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required /></label>
+              <label>Confirm Password <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required /></label>
+              <div class="button-container">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
 </html>
