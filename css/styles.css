@@ -73,6 +73,18 @@ input:focus {
   outline-color: #144fa0;
 }
 
+button {
+  margin-top: 2rem;
+  background-color: var(--button-color);
+  color: var(--font-color);
+  width: 200px;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
 .content {
   display: flex;
   flex-flow: column wrap;
