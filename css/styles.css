@@ -85,6 +85,10 @@ button {
   outline: none;
 }
 
+.button-container:last-child {
+  color: var(--font-color);
+}
+
 .content {
   display: flex;
   flex-flow: column wrap;
@@ -126,4 +130,78 @@ img {
 
 .logo-text {
   font-size: 5rem;
+}
+
+@media (min-width: 800px) {
+  .content {
+    flex-flow: row nowrap;
+  }
+
+  .right-side {
+    display: flex;
+    width: 60%;
+    padding: 2rem;
+    flex-flow: row wrap;
+    align-content: center;
+    background-color: var(--right-side-color);
+  }
+
+  .left-side {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 40%;
+    min-height: 100vh;
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+    background-position: 0;
+  }
+
+  .image-section,
+  img {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    top: 20%;
+    font-size: 4rem;
+    padding: 0.2rem;
+    font-family: "Norse-Bold";
+    color: white;
+  }
+  .logo {
+    width: 120px;
+  }
+
+  .logo-text {
+    font-size: 5rem;
+  }
+
+  .image-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0.3;
+  }
+  .author-image {
+    visibility: visible;
+    justify-content: flex-end;
+    color: var(--font-color);
+    align-self: center;
+  }
+
+  section form {
+    flex-flow: row wrap;
+  }
+
+  input,
+  label {
+    flex-basis: 49%;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+  }
 }
