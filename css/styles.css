@@ -1,3 +1,9 @@
+:root {
+  --font-color: #ffffff;
+  --right-side-color: #000000;
+  --button-color: #0f3974;
+}
+
 html {
   box-sizing: border-box;
 }
