@@ -16,7 +16,7 @@ html {
 
 @font-face {
   font-family: "Norse-Bold";
-  src: url(/fonts/Norse-Bold.otf);
+  src: url(../fonts/Norse-Bold.otf);
 }
 
 body {
@@ -95,7 +95,7 @@ button {
 }
 .left-side {
   min-height: 30vh;
-  background-image: url(/img/background.jpg);
+  background-image: url(../img/background.jpg);
   background-size: cover;
   background-position: -5px -410px;
 }
@@ -167,7 +167,7 @@ img {
     justify-content: space-between;
     width: 40%;
     min-height: 100vh;
-    background-image: url(/img/background.jpg);
+    background-image: url(../img/background.jpg);
     background-size: cover;
     background-position: 0;
   }
