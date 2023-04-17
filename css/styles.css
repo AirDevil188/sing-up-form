@@ -16,7 +16,7 @@ html {
 
 @font-face {
   font-family: "Norse-Bold";
-  src: url(fonts/Norse-Bold.otf);
+  src: url(/fonts/Norse-Bold.otf);
 }
 
 body {
